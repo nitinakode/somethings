@@ -6,6 +6,7 @@ const About: React.FC = () => {
     <Box >
       {/* About Section */}
       <Box sx={{ mt: 4 }}>
+        
         <Typography variant="h4" gutterBottom>About Me</Typography>
         <Typography>
           I am a dedicated Full Stack Java Developer with a Bachelor of Technology in Electronics and Communication Engineering.

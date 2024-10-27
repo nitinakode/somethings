@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
+import { Container, Box } from '@mui/material';
+import About from './About';
+import Experience from './Experince';
+import Footer from './Footer';
+import Header from './Header';
+import Home from './Home';
+import Projects from './Projects';
+import Skills from './skills';
+import Complete from './Complete';
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Header />
+
+        <Container maxWidth="lg" sx={{ flexGrow: 1 }}>
+          <Routes>
+            <Route path="/" element={<Complete />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </Container>
+        
+      </Box>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -3,6 +3,7 @@ import { Box, Typography, Button, Grid } from '@mui/material';
 import ProfilePic from './1.png'
 const Home: React.FC = () => {
   const handleResumeDownload = () => {
+    
     window.open('/Nitin_Akode_Java_Full_Stack_Developer.pdf', '_blank'); // Update with your actual resume path
   };
 

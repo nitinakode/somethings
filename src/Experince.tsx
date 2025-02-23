@@ -3,26 +3,19 @@ import { Typography, Box, Card, CardContent, Grid } from '@mui/material';
 
 const experiences = [
   {
-    title: "Associate Software Analyst",
+    title: "Software Analyst",
+    role: "Java Full Stak Develoepr",
     company: "Redshift, Hyderabad, India",
     date: "Jan 2023 – Present",
     responsibilities: [
-      "Developed and maintained an Order Management System (OMS) interface, improving order processing efficiency by 40%.",
-      "Optimized system performance by designing and deploying a microservices architecture, reducing manual effort by 80%.",
-      "Collaborated with cross-functional teams to refine product features, ensuring timely delivery of high-quality solutions."
-    ]
-  },
-  {
-    title: "Full Stack Developer (Freelancer)",
-    company: "Remote",
-    date: "Oct 2022 – Dec 2022",
-    responsibilities: [
-      "Developed a fully responsive e-commerce platform using React for the frontend.",
-      "Designed and implemented a secure backend with Spring Boot, efficiently handling product management.",
-      "Integrated JWT-based authentication for user sessions."
+      "Developed and maintained the Order Management System (OMS) interface, improving order processing by 40%.",
+      "Designed and deployed a microservices architecture, reducing manual effort by 80% and downtime by 45%.",
+      "Integrated Spring Reactive Programming for asynchronous microservices, enhancing system scalability and responsiveness.",
+      "Collaborated with cross-functional teams using agile methodologies to deliver high-quality solutions on time."
     ]
   }
 ];
+
 
 const Experience: React.FC = () => {
   return (
@@ -33,7 +26,8 @@ const Experience: React.FC = () => {
           <Grid item xs={12} md={6} key={index}>
             <Card>
               <CardContent>
-                <Typography variant="h6">{exp.title}</Typography>
+                <Typography variant="h6">{exp.role}</Typography> 
+                {/* <Typography variant="subtitle1" color="textSecondary">{exp.title}</Typography>  */}
                 <Typography variant="subtitle1" color="textSecondary">{exp.company}</Typography>
                 <Typography variant="body2" color="textSecondary">{exp.date}</Typography>
                 <ul>
@@ -53,3 +47,4 @@ const Experience: React.FC = () => {
 };
 
 export default Experience;
+

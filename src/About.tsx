@@ -7,18 +7,23 @@ const About: React.FC = () => {
       {/* About Section */}
       <Box sx={{ mt: 4 }}>
         
-        <Typography variant="h4" gutterBottom>About Me</Typography>
-        <Typography>
-          I am a dedicated Full Stack Java Developer with a Bachelor of Technology in Electronics and Communication Engineering.
-          I have a strong background in developing scalable web applications using a variety of frameworks and tools, including 
-          React, Spring Boot, and RESTful APIs. My experience spans across designing user-friendly interfaces, building 
-          robust backends, and collaborating with cross-functional teams to deliver high-quality solutions.
-        </Typography>
-        <Typography sx={{ mt: 2 }}>
-          I am always eager to learn new technologies and improve my skills, making me adaptable to evolving project requirements.
-          In my free time, I enjoy coding, reading about new tech trends, and playing cricket.
-        </Typography>
-      </Box>
+      <Typography variant="h4" gutterBottom>About Me</Typography>
+<Typography>
+  I am a dynamic Full Stack Developer with over 2 years of experience specializing in Java, Spring Boot, React, and microservices.
+  Holding a Bachelor of Technology degree in Electronics and Communication Engineering, I have built scalable applications that enhance 
+  business efficiency. I have a strong technical foundation and have worked extensively on projects such as optimizing Order Management 
+  Systems (OMS), creating full-stack microservices applications, and developing feature-rich e-commerce platforms.
+</Typography>
+<Typography sx={{ mt: 2 }}>
+  My expertise lies in designing and implementing both backend and frontend solutions, integrating cutting-edge technologies such as 
+  Spring Reactive Programming and microservices architecture. I thrive in collaborative, cross-functional team environments, continuously 
+  improving systems to meet evolving project needs. I am always eager to learn new technologies and stay updated on industry trends.
+</Typography>
+<Typography sx={{ mt: 2 }}>
+  Outside of work, I enjoy coding, reading about new tech innovations, playing cricket, and writing poetry. These activities keep me inspired 
+  and motivated to continue growing as a developer.
+</Typography>
+</Box>
     </Box>
     
   );

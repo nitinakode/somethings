@@ -1,11 +1,13 @@
 import React from 'react';
 import { Box, Typography, Grid, Card, CardContent, CardMedia } from '@mui/material';
-
+import Portfolio from './portfolio.png';
 const projects = [
   {
-    name: "Project 1",
-    imageUrl: "https://via.placeholder.com/300",
-    description: "Description of Project 1."
+    name: "Personal Portfolio",
+    imageUrl: Portfolio,
+    description: "Welcome to my portfolio! I’m a Full Stack Java Developer with expertise in Java, React, and Spring Boot. Here, you can explore my projects, skills, and experience, showcasing my ability to create scalable, user-centric web applications.",
+    githubLink: "https://ntinakodeportfolio.netlify.app/",
+
   },
   {
     name: "Project 2",
@@ -50,8 +52,14 @@ const projects = [
 ];
 
 const Projects: React.FC = () => {
-  const handleProjectClick = (description: string) => {
-    alert("I haven't added anything yet");
+  const handleProjectClick = (project: any) => {
+ if(project.githubLink){
+    window.open(project.githubLink, '_blank');
+ }
+ if(!project.githubLink){
+  alert("GitHub and live links for this project were not added")
+  
+ }
   };
 
   return (
@@ -59,8 +67,8 @@ const Projects: React.FC = () => {
       <Typography variant="h4" gutterBottom>Projects</Typography>
       <Grid container spacing={4}>
         {projects.map((project, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card onClick={() => handleProjectClick(project.description)} sx={{ cursor: 'pointer' }}>
+          <Grid item xs={1000} sm={7} md={4} key={index}>
+            <Card onClick={() => handleProjectClick(project)} sx={{ cursor: 'pointer' }}>
               <CardMedia
                 component="img"
                 height="140"

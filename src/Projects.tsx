@@ -10,14 +10,16 @@ const projects = [
 
   },
   {
-    name: "Project 2",
-    imageUrl: "https://via.placeholder.com/300",
-    description: "Description of Project 2."
+    name: "Admin Service",
+    githubLink: "https://github.com/nitinakode/admin-service",
+    imageUrl: "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png",
+    description: "JWT Authentication and Authorization with Spring Security "
   },
   {
-    name: "Project 3",
-    imageUrl: "https://via.placeholder.com/300",
-    description: "Description of Project 3."
+    name: "Redis Cache",
+    githubLink: "https://github.com/nitinakode/redis-cache",
+    imageUrl: "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png",
+    description: "Implementation of products service using redis cache"
   },
   {
     name: "Project 4",

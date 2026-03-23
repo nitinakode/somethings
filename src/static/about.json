@@ -1,0 +1,9 @@
+{
+  "title": "About Me",
+  "paragraphs": [
+    "I am a Software Engineer with 3+ years of experience building scalable backend systems using Java, Spring Boot, and Microservices. I have designed and optimized systems that handle thousands of users with high availability and low latency.",
+    "In my recent work, I improved API reliability, reduced production errors, and increased system throughput by implementing asynchronous communication and event-driven architecture using Kafka. I focus on writing clean, maintainable code and building systems that scale.",
+    "I have strong experience in REST APIs, distributed systems, and databases like MySQL, MongoDB, and Redis. I also work with React to deliver complete end-to-end features when needed.",
+    "I take ownership of features from design to deployment and work closely with cross-functional teams to deliver reliable, production-ready solutions. I am passionate about solving real-world problems and continuously improving system performance."
+  ]
+}

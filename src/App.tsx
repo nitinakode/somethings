@@ -8,6 +8,7 @@ import Header from './Header';
 import Projects from './Projects';
 import Skills from './skills';
 import Complete from './Complete';
+import Footer from './Footer';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Footer />} />
           </Routes>
         </Container>
         

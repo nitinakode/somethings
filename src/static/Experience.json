@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Software Engineer II",
+    "company": "BlueYonder, Hyderabad, India",
+    "date": "May 2025 – Present",
+    "responsibilities": [
+      "Redesigned REST APIs with validation, exception handling, and caching, reducing production errors by 32%.",
+      "Improved system throughput by 30% using asynchronous communication between microservices.",
+      "Reduced memory usage by 25% by optimizing inter-service communication.",
+      "Developed integration tests covering critical workflows, improving system stability and reducing regressions.",
+      "Worked on distributed microservices to ensure high availability and system reliability."
+    ]
+  },
+  {
+    "role": "Software Analyst (Java Full Stack Developer)",
+    "company": "Redshift, Hyderabad, India",
+    "date": "Jan 2023 – May 2025",
+    "responsibilities": [
+      "Built scalable microservices supporting 3,000+ daily users with high availability.",
+      "Designed Kafka-based event-driven systems, reducing bottlenecks by 35%.",
+      "Developed reactive services using Spring WebFlux, improving concurrent request handling by 40%.",
+      "Automated reporting workflows, reducing manual effort by 35% and improving response time by 50%.",
+      "Owned end-to-end feature development from backend services to frontend dashboards."
+    ]
+  }
+]

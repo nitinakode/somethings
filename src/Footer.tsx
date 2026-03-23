@@ -62,7 +62,7 @@ const PersonalDetails: React.FC = () => {
       </Paper>
 
       <Typography variant="body2" sx={{ mt: 2, textAlign: 'center', color: '#555' }}>
-        &copy; 2024 Nitin Akode
+        &copy; 2026 Nitin Akode
       </Typography>
     </Box>
   );

@@ -35,9 +35,15 @@ const Header: React.FC = () => {
     <>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
-            Nitin Akode
-          </Typography>
+<Typography
+  variant="h6"
+  sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+  component={Link}
+  to="/"
+  style={{ textDecoration: "none", color: "inherit" }}
+>
+  Nitin Akode
+</Typography>
 
           {/* Desktop buttons */}
           <Box sx={{ display: { xs: "none", sm: "block" } }}>

@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Skills from './skills';
 import Complete from './Complete';
 import Footer from './Footer';
+import Home from './Home';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Container maxWidth="lg" sx={{ flexGrow: 1 }}>
           <Routes>
             <Route path="/" element={<Complete />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Experience />} />

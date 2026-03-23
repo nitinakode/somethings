@@ -1,0 +1,13 @@
+{
+  "skills": {
+    "languages": ["Java", "TypeScript"],
+    "backend": ["Spring Boot", "Spring MVC", "Spring Security", "Spring WebFlux", "Spring Data JPA"],
+    "architecture": ["Microservices", "Distributed Systems", "Event-Driven Architecture"],
+    "messaging": ["Kafka", "Pub/Sub"],
+    "databases": ["MySQL", "MongoDB", "Redis"],
+    "toolsDevOps": ["Docker", "Maven", "Git", "Jira"],
+    "testing": ["JUnit", "Mockito"],
+    "monitoringApi": ["Splunk", "Dynatrace", "Swagger", "Postman"],
+    "frontend": ["React", "HTML", "CSS"]
+  }
+}

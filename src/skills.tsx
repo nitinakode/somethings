@@ -1,32 +1,8 @@
 import React from 'react';
 import { Typography, Box, Chip } from '@mui/material';
+import skillsJson from './static/Skills.json'
 
-const skills = {
-  languages: ["Java", "TypeScript"],
-
-  backend: [
-    "Spring Boot", "Spring MVC", "Spring Security", 
-    "Spring WebFlux", "Spring Data JPA"
-  ],
-
-  architecture: [
-    "Microservices", "Distributed Systems", "Event-Driven Architecture"
-  ],
-
-  messaging: ["Kafka", "Pub/Sub"],
-
-  databases: ["MySQL", "MongoDB", "Redis"],
-
-  devOps: ["Docker", "Maven", "Git"],
-
-  testing: ["JUnit", "Mockito"],
-
-  monitoring: ["Splunk", "Dynatrace"],
-
-  apiTools: ["Swagger", "Postman"],
-
-  frontend: ["React", "HTML", "CSS"]
-};
+const skills = skillsJson.skills
 
 const Skills: React.FC = () => {
   return (
@@ -76,10 +52,10 @@ const Skills: React.FC = () => {
         ))}
       </Box>
 
-      {/* DevOps */}
-      <Typography variant="h6">DevOps & Tools:</Typography>
+      {/* Tools & DevOps */}
+      <Typography variant="h6">Tools & DevOps:</Typography>
       <Box sx={{ mb: 2 }}>
-        {skills.devOps.map((item) => (
+        {skills.toolsDevOps.map((item) => (
           <Chip key={item} label={item} sx={{ mr: 1 }} />
         ))}
       </Box>
@@ -92,18 +68,10 @@ const Skills: React.FC = () => {
         ))}
       </Box>
 
-      {/* Monitoring */}
-      <Typography variant="h6">Monitoring:</Typography>
+      {/* Monitoring & API */}
+      <Typography variant="h6">Monitoring & API:</Typography>
       <Box sx={{ mb: 2 }}>
-        {skills.monitoring.map((item) => (
-          <Chip key={item} label={item} sx={{ mr: 1 }} />
-        ))}
-      </Box>
-
-      {/* API Tools */}
-      <Typography variant="h6">API Tools:</Typography>
-      <Box sx={{ mb: 2 }}>
-        {skills.apiTools.map((item) => (
+        {skills.monitoringApi.map((item) => (
           <Chip key={item} label={item} sx={{ mr: 1 }} />
         ))}
       </Box>

@@ -11,16 +11,17 @@
       "Worked on distributed microservices to ensure high availability and system reliability."
     ]
   },
-  {
+{
   "role": "Software Analyst (Java Full Stack Developer)",
   "company": "Redshift, Hyderabad, India",
   "date": "Jan 2023 – May 2025",
   "responsibilities": [
-    "Contributed to building a scalable full-stack microservices platform serving 3,000+ daily users with high availability and reliability.",
-    "Designed and implemented Kafka-based event-driven systems, reducing system bottlenecks by 35% and improving message throughput.",
-    "Developed reactive backend services using Spring WebFlux, enhancing concurrent request handling by 40% and overall system responsiveness.",
-    "Automated notifications and reporting workflows, reducing manual administrative effort by 35% and improving response time by 50%.",
-    "Delivered end-to-end features, including backend services and frontend dashboards, collaborating with cross-functional teams following Agile practices."
+    "Owned end-to-end development of a full-stack microservices platform using Java, Spring Boot, and React, improving operational efficiency by 25% and enabling faster feature delivery across teams.",
+    "Developed and improved bulk data ingestion pipelines using Spring Batch, handling large-volume uploads with data validation and retry mechanisms, improving system reliability and processing efficiency.",
+    "Developed and optimized RESTful APIs and React-based UI, ensuring seamless integration between frontend and backend while improving performance.",
+    "Implemented and maintained containerized microservices using Docker, improving deployment consistency and maintainability across environments.",
+    "Developed automated notification and reporting systems, reducing manual administrative effort by 40%.",
+    "Contributed to key modules within Agile teams, ensuring timely delivery and system stability."
   ]
 }
 ]
